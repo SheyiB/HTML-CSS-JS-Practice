@@ -1,0 +1,155 @@
+<html>
+<head>
+    <title>
+        Signup Form
+    </title>
+
+    <style>
+        #maing{
+            width: 100%;
+            height: auto;
+        
+        }
+
+        .subg{
+            float:left;
+            height:100%
+        }
+        
+        
+        #left{
+            background-color:lightblue;
+            width: 30%
+        }
+
+        #middle{
+            background-color:lightgreen ;
+            float: right;
+            width: 80%;
+        }
+        #right{
+            background-color:darkcyan;
+            width: 70%
+        }
+
+        img{
+            width:100%;
+            height:100%;
+        }
+        h1{
+            padding-top: 30px;
+            color: midnightblue;
+            text-align: center;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        label{
+            color:rgb(39, 32, 32);
+            font-family: cursive;
+            
+        }
+
+        input{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin-left:  20%;
+            margin-right: 25%;
+            text-align: center;
+            place
+        }
+        .dif{
+            margin-left:  1%;
+            margin-right: 0%
+        }
+        .diff{
+            margin-left:  0%;
+            margin-right: 0%
+            
+        }
+        .sd{
+            width:  175px;
+            text-align: center;
+
+        }
+        
+        #middle{
+            text-align: center;
+        }
+        .fin{
+            margin-left:  0%;
+            margin-right: 0%
+        }
+
+        #jam{
+            margin-top: 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    
+    <div id="maing">
+        <div id="right" class="subg">
+            <img src="images/lion.png"/>
+
+        </div>
+          
+        <div id="left" class="subg">
+
+            
+
+            <div id="middle" class="subg">   
+                <h1> Membership Signup </h1><hr/>
+                <form>
+                    <div >
+                        <label> First name</label> <br>
+                        <input type="text" placeholder="Enter your first name"><hr/>
+
+                        <label> Last name</label> <br>
+                        <input type="text" placeholder="Enter your last name"><hr/>
+
+                        <label> Middle name</label> <br>
+                        <input type="text" placeholder="Enter your middle name"><hr/>
+
+                        <label> Date of Birth</label><br>
+                        <input class="sd" type="date"><hr/>
+
+                        <label> Gender </label> <br>
+                        <input class="dif" type="radio" name="Gender"> Male
+                        <input class ="diff" type="radio" name="Gender"> Female<hr/>
+
+                        <label> Phone number</label><br>
+                        <input type="tel" placeholder="type your phone number"><hr/>
+
+                        <label> Email</label><br>
+                        <input type="email" placeholder="type your email"><hr/>
+
+                        <label> Password</label><br>
+                        <input type="password" placeholder="type your password"><hr/>
+
+                        <label> Retype Password</label><br>
+                        <input type="password" placeholder="retype your password"><hr/>
+
+                        <label> Intrests</label><br>
+                        <input class= "fin" type="checkbox">Sports
+                        <input class= "fin" type="checkbox">Technology
+                        <input class= "fin" type="checkbox">Business<hr/>
+
+                        <input class="fin" id="jam" type="submit"> 
+                        <input class="fin" id="jam" type="reset">
+                        <input class="fin" id="jam" type="button" value="refresh">
+                        
+                    </div>
+
+
+
+                </form>
+            </div>
+
+      </div>
+
+        
+
+    </div>
+</body>
+
+</html>

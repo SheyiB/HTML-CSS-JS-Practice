@@ -1,0 +1,74 @@
+#main{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    justify-content: space-around;
+    align-items: top;
+    background-color: black;
+}
+.mid{
+    width: 20%;
+    height: 10%;
+    
+}
+#one{
+    background-color: lightskyblue;
+    
+}
+#two{
+    background-color: lightslategray;
+    display: none;
+}
+#three{
+    background-color: lightslategrey;
+    visibility: hidden; 
+}
+#four{
+    background-color: lightsteelblue;
+}
+
+ul{
+    color:blue;
+}
+
+p{
+    color: blue
+}
+p::first-letter{
+    font-size: 50px;
+}
+p::first-line{
+    color: firebrick;
+}
+p::selection{
+    background-color: burlywood;
+    color:darkseagreen;
+}
+
+ul li:first-element{
+    color: cadetblue;
+}
+
+ul li:first-child{
+    color: burlywood;
+}
+
+ul li:last-child{
+    color: black;
+}
+
+ul li:nth-child(n+5){
+    color: rgb(165, 154, 236);
+}
+
+ul li::selection{
+    color: darkgreen;
+    
+}
+
+p:hover{
+    background-color: greenyellow;
+    color: indigo;
+}

@@ -1,0 +1,118 @@
+<html>
+    <head>
+        <title>Form Design</title>
+        <style>
+            #bigBox{
+                width: 100%;
+                height: auto;
+            }
+            .inside{
+                float: left;
+                height: 100%;
+            }
+            #left{
+                background-color: burlywood;
+                width: 30%;
+            }
+            #right{
+                background-color: cadetblue;
+                width: 70%;
+            }
+            img{
+                    width: 100%;
+                    height: inherit;
+                   }
+                   .container{
+                       margin-top: 10px;
+                       padding: 5px;
+                       margin-right: 20px;
+                       text-align: right;
+                   }
+                   h1{
+                       text-align: center;
+                   }
+                   input{
+                       padding: 10px;
+                       
+                   }
+        </style>
+    </head>
+    <body>
+        <div id="bigBox">
+
+            <div id="left" class="inside">
+                    <h1> Login Form</h1>
+                    <form id="login" class="new">
+                        <div class="container">
+                        <label> First name </label>
+                                                <input type="text">
+
+                            
+                        </div>
+                        <div class="container">
+                        <label> Last name</label>
+                        <input type="text">
+                        </div>
+
+                        <div class="container">
+                        <label> Middle name</label>
+                        <input type= "text"> <br>
+                        </div>
+
+                        <div class="container">
+                        <label> Date of Birth</label>
+                        <input type="date">
+                        </div>
+
+                        <div class="container">
+                        <label> Gender</label>
+                        <input type="radio" name="Gender"> Male
+                        <input type="radio" name="Gender"> Female <br>
+                        </div>
+
+
+                        <div class="container">
+                        <label> Email</label>
+                        <input type="email">
+                        </div>
+
+                        <div class="container">
+                        <label> Phone number</label>
+                        <input type="tel"> <br>
+                        </div>
+
+                        <div class="container">
+                            <label> Desired Username</label>
+                        <input type="text"></div>
+
+                        <div class="container">
+                        <label> Password</label>
+                        <input type="password">
+                        </div>
+
+                        <div class="container"><label> Retype Password</label>
+                        <input type="password"> <br>
+
+                        <label> Height</label>
+                        <input type="range" min="0" max="100">
+                        </div>
+
+                        <div class="container">
+                        <input value="Submit" type="button">
+                        <input value=" Reset input" type="reset">
+                        </div>
+                        
+                                        
+                    </form>
+            </div>
+            <div id="right" class="inside">
+                <img src="images/mashmask.jpg "/>
+
+            </div>
+
+
+
+        </div>
+
+    </body>
+</html>

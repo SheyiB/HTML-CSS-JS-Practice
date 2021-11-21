@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>box</title>
+        <style>
+            body{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-around;
+            }
+            .main{
+                background-color: hsl(0, 18%, 96%);
+                width: 25%;
+                color: gray;
+                text-align: center;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+
+            h1{
+                font-weight: lighter;
+            }
+            hr{
+                width: 80%;
+                margin-top: 15px;
+                margin-bottom: 15px;
+            }
+            .for{
+                margin-top:3%;
+                height: 30px;
+                width: 80%;
+            }
+            .ty{
+                margin-left: 20px;
+            }
+            #rad{
+                margin-left: -20%;
+            }
+            #ad{
+                margin-left: -35%;
+            }
+            p{
+                font-size: 10.5px;
+            }
+            #ine{
+                margin-bottom: 10px;
+            }
+            #sd{
+                background-color: rgb(26, 130, 179);
+                color:white;
+                border:none;
+                border-radius: 4px;
+                width: 80%;
+                height: 30px;
+                margin-top: -20px;}
+        </style>
+    </head>
+
+    <body>  
+
+        <div class="main">
+        <h1>Registration</h1>
+        <hr>
+        <form>
+            <input id="rad" type="radio" name="type">Personal
+            <input class="ty" type="radio" name="type">Company<br><hr>
+            <input class="for" type="email" placeholder="Email"><br>
+            <input class="for" type="Name" placeholder="Name"><br>
+            <input id="ine" class="for" type="Password" placeholder="Password"><br><hr>
+            <input id="ad" type="radio" name="Gender">Male
+            <input  class="ty" type="radio" name="Gender">Female<br><hr>
+            <p> By clicking Register, you agree on our <a href="#">Privacy Policy <br> for W3Docs</a></p><br>
+            <input id="sd" type="button" value="Submit">
+        </form>
+        </div>
+
+
+
+    </body>
+</html>
